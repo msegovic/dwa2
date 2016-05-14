@@ -20,7 +20,7 @@ function logiran($tip)
 
 function db()
 { 
-    $conn = new mysqli("localhost", "root", "", "portal_ijugo");  
+    $conn = new mysqli("localhost", "root", "raspberry", "portal_msegovic");  
     return $conn;
 }
 
